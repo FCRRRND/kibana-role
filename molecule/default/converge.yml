@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include openstack.kibana_role"
+      include_role:
+        name: "openstack.kibana_role"
